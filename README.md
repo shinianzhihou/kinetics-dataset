@@ -10,6 +10,14 @@ Modified from https://github.com/cvdfoundation/kinetics-dataset
 - fix the bug when there are spaces in url
 - use all in one script
 
+Usage
+
+```bash
+git clone https://github.com/shinianzhihou/kinetics-dataset.git
+cd kinetics-dataset
+sh download_k400.sh > download_k400.log 2>&1 &
+sh download_k600.sh > download_k600.log 2>&1 &
+```
 
 
 
